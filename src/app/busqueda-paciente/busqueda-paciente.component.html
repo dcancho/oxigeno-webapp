@@ -1,0 +1,31 @@
+<div class="main-container">
+    <mat-card class="custom-card">
+        <mat-card-header>
+            <mat-card-title class="title" >OxigenoYa</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="card-section">
+                <mat-form-field appearance="fill" class="full-width ">
+                    <mat-label >Dni paciente</mat-label>
+                    <input matInput [formControl]="dniPaciente">
+                </mat-form-field>
+            </div>
+            <div class="card-section">
+                <mat-form-field appearance="fill" class="full-width">
+                    <mat-label>Centro de Salud</mat-label>
+                    <input matInput [formControl]="centroSalud">
+                </mat-form-field>
+            </div>
+            <div class="card-section">
+                <mat-form-field appearance="fill" class="full-width">
+                    <mat-label>Requerimiento de oxigeno</mat-label>
+                    <input matInput [formControl]="requerimientoOxigeno">
+                </mat-form-field>
+            </div>
+        </mat-card-content>
+        <mat-card-actions class="card-section">
+            <button [disabled]="!allFieldsFilled()">Buscar Oxígeno</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
+

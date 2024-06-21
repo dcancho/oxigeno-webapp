@@ -1,0 +1,58 @@
+/* busqueda-paciente.component.css */
+.main-container {
+    background-image: url('./assets/image/background.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-section {
+    margin-bottom: 20px;
+}
+.mat-form-field {
+    width: 100%;
+    padding: 10px 0; /* Añade padding arriba y abajo del campo de entrada */
+    /* height: 50px;  Elimina o ajusta esta línea */
+}
+
+.custom-button {
+    margin-top: 20px;
+}
+
+.custom-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 467px;
+    height: 523px;
+    position: absolute;
+    top: 250px;
+    left: 83px;
+    gap: 0px;
+    background-color: #D0E4FF;
+}
+
+.title {
+    font-size: 2em; /* Aumenta el tamaño de la fuente */
+    position: relative;
+    top: -50px; /* Mueve el título hacia arriba */
+}
+button {
+    background-color: #34618E !important; /* Cambia el color de fondo del botón */
+    color: white !important; /* Cambia el color del texto del botón */
+}
+button:disabled {
+    background-color: grey !important; /* Cambia el color de fondo del botón a gris cuando está deshabilitado */
+}
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
