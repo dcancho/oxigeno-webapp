@@ -1,7 +1,10 @@
-export interface OxygenLocation{
-    patientId: string;
-    healthcareCenter: string;
-    oxygenRequirement:string;
-    patientDiagnosis:string;
-    searchIntensity:string;
+export interface hospital{
+    id_hospital: string;
+    nombre: string;
+    direccion: string;
+    distrito: string;
+    oxigeno_disponible: any;
+    costo_oxigeno: string; 
+    latitud: any;
+    longitud: any;
   }

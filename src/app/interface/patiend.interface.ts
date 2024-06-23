@@ -1,9 +1,9 @@
-export interface OxygenProviderResponse {
-    patientId: string;
-    healthcareCenter: string;
-    oxygenRequirement:string;
-    patientDiagnosis:string;
+export interface paciente {
+    id: string;
+    dni: string;
+   nombres: string;
+   apellidos: string;
+   diagnostico: string;
     
 
-    // Añade aquí el resto de las propiedades que esperas en la respuesta
   }

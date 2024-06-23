@@ -1,0 +1,130 @@
+{
+  "internados": [
+    {
+      "id": "1",
+      "cant_oxigeno": "2",
+      "pacienteData": {
+        "id": "p1",
+        "dni": "12345678",
+        "nombre": "Juan Perez",
+        "edad": 45,
+        "direccion": "Calle Falsa 123",
+        "telefono": "123456789"
+      },
+      "hospitalData": {
+        "id_hospital": "h1",
+        "nombre": "Hospital General",
+        "direccion": "Avenida Siempre Viva 742",
+        "distrito": "Springfield",
+        "oxigeno_disponible": 50,
+        "costo_oxigeno": "5",
+        "latitud": -20.046374,
+        "longitud": -70.042793
+      }
+    },
+    {
+      "id": "2",
+      "cant_oxigeno": "3",
+      "pacienteData": {
+        "id": "p2",
+        "dni": "789456123",
+        "nombre": "Maria Lopez",
+        "edad": 37,
+        "direccion": "Avenida Principal 456",
+        "telefono": "987654321"
+      },
+      "hospitalData": {
+        "id_hospital": "h2",
+        "nombre": "CENTRO DIAGNOSTICO MIRAFLORES",
+        "direccion": "AVENIDA AV. ALFREDO BENAVIDES 298 DISTRITO MIRAFLORES PROVINCIA LIMA DEPARTAMENTO LIMA",
+        "distrito": "Miraflores",
+        "oxigeno_disponible": 2,
+        "costo_oxigeno": 630,
+        "latitud": -12.0875718,
+        "longitud": -77.0495381
+      }
+    }
+  ],
+  "Hospitales": [
+    {
+      "id_hospital": "h3",
+      "nombre": "Hospital Miraflores Central",
+      "direccion": "Av. Larco 101",
+      "distrito": "Miraflores",
+      "oxigeno_disponible": 5,
+      "costo_oxigeno": "500",
+      "latitud": -10.119142,
+      "longitud": -77.034904
+    },
+    {
+      "id_hospital": "h4",
+      "nombre": "Clínica Del Pilar",
+      "direccion": "Calle José Gonzales 555",
+      "distrito": "Miraflores",
+      "oxigeno_disponible": 2,
+      "costo_oxigeno": "450",
+      "latitud": 8.123456,
+      "longitud": -77.027654
+    },
+    {
+      "id_hospital": "h5",
+      "nombre": "Hospital Anglo Americano",
+      "direccion": "Av. Angamos Oeste 430",
+      "distrito": "Miraflores",
+      "oxigeno_disponible": 85,
+      "costo_oxigeno": "300",
+      "latitud": -30.111111,
+      "longitud": -77.022222
+    },
+    {
+      "id_hospital": "h6",
+      "nombre": "GA",
+      "direccion": "Av. Angamos Oeste 430",
+      "distrito": "San jaun del pincho",
+      "oxigeno_disponible": 40,
+      "costo_oxigeno": "300",
+      "latitud": -30.111111,
+      "longitud": -77.022222
+    },
+    {
+      "id_hospital": "h7",
+      "nombre": "POLICLINICO CENTRAL DE PREVENCION LARCO",
+      "direccion": "AVENIDA AV. JOSE A. LARCO 670 AV. JOSE A. LARCO 670 MIRAFLORES LIMA LIMA",
+      "distrito": "Miraflores",
+      "oxigeno_disponible": 50,
+      "costo_oxigeno": 530,
+      "latitud": -12.0839961,
+      "longitud": -77.0293361
+    },
+    {
+      "id_hospital": "h8",
+      "nombre": "CENTRO DE SALUD SANTA CRUZ DE MIRAFLORES",
+      "direccion": "AVENIDA AV. JOSE PARDO N° 796 DISTRITO MIRAFLORES PROVINCIA LIMA DEPARTAMENTO LIMA",
+      "distrito": "Miraflores",
+      "oxigeno_disponible": 2,
+      "costo_oxigeno": 270,
+      "latitud": -12.1189648,
+      "longitud": -77.0366847
+    },
+    {
+      "id_hospital": "h9",
+      "nombre": "INSTITUTO DE SALUD LIBERTAD SAC",
+      "direccion": "OTROS V. ERNESTO DIEZ CANSECO 493 1ER Y 2DO PISO DISTRITO MIRAFLORES PROVINCIA LIMA DEPARTAMENTO LIMA",
+      "distrito": "Miraflores",
+      "oxigeno_disponible": 2,
+      "costo_oxigeno": 320,
+      "latitud": -12.12208822,
+      "longitud": -77.02580161
+    },
+    {
+      "id_hospital": "h10",
+      "nombre": "BOSTON MEDICAL GROUP",
+      "direccion": "OTROS AV. ALFREDO BENAVIDES N° 1579 INTERIOR 302 DISTRITO MIRAFLORES PROVINCIA LIMA DEPARTAMENTO LIMA",
+      "distrito": "Miraflores",
+      "oxigeno_disponible": 2,
+      "costo_oxigeno": 440,
+      "latitud": -12.1263081,
+      "longitud": -77.01647
+    }
+  ]
+}
