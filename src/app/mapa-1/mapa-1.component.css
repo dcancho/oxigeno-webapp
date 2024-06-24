@@ -1,17 +1,53 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-toolbar {
+  background-color: #78ace0;
+  color: white;
+}
+
 .map-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 30px;
-  }
-  
-  .map-frame {
-    border: 2px solid black;
-    height: 100%;
-  }
-  
-  #map {
-    height: 100%;
-  }
+  position: absolute;
+  top: 60px; /* Altura del toolbar */
+  left: 0;
+  right: 0;
+  bottom: 60px; /* Altura del formulario */
+  margin: 55px;
+}
+
+.map-frame {
+  border: 2px solid black;
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+}
+
+.example-form {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+}
+
+.example-full-width {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.example-button-row {
+  display: flex;
+  align-items: center;
+}
