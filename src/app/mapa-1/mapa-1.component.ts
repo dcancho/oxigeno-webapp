@@ -3,11 +3,18 @@ import * as L from 'leaflet';
 import { ActivatedRoute, Router } from '@angular/router';
 import { OxigenoService } from '../oxigeno.service';
 import { internados } from '../interface/intermedio.location';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar'; 
 
 @Component({
   selector: 'app-mapa-1',
+  standalone: true,
   templateUrl: './mapa-1.component.html',
-  styleUrls: ['./mapa-1.component.css']
+  styleUrls: ['./mapa-1.component.css'],
+  imports: [FormsModule, MatFormFieldModule, MatInputModule, MatButtonModule, MatToolbarModule]
 })
 export class Mapa1Component implements AfterViewInit {
   private map: any;
